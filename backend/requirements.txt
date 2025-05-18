@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+motor
+python-multipart
+passlib[bcrypt]
+PyJWT
+boto3
+python-dotenv
+qrcode
