@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-multipart
+passlib[bcrypt]
+python-jose
+motor
+python-dotenv
+qrcode
+boto3
+python-socketio
+aiofiles
