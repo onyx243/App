@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+python-multipart
+motor
+pymongo
+python-dotenv
+passlib[bcrypt]
+pyjwt
+slowapi
+python-slugify
+pydantic[email]
+python-socketio
+aiofiles
+qrcode
+boto3
+mypy
+nanoid
