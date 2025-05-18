@@ -1,0 +1,26 @@
+{
+  "info": {
+    "name": "PrintShop API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Signup",
+      "request": {
+        "method": "POST",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "url": {"raw": "{{url}}/api/auth/signup"},
+        "body": {"mode": "raw", "raw": "{\n  \"email\": \"a@b.com\",\n  \"password\": \"pass\"\n}"}
+      }
+    },
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "header": [{"key": "Content-Type", "value": "application/json"}],
+        "url": {"raw": "{{url}}/api/auth/login"},
+        "body": {"mode": "raw", "raw": "{\n  \"email\": \"a@b.com\",\n  \"password\": \"pass\"\n}"}
+      }
+    }
+  ]
+}
