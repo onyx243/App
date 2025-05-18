@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": true,
+    "es2022": true
+  },
+  "extends": ["airbnb"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "import/no-extraneous-dependencies": "off",
+    "react/jsx-filename-extension": [1, { "extensions": [".jsx"] }]
+  }
+}

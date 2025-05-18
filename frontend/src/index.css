@@ -1,0 +1,4 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import 'react-hot-toast/dist/react-hot-toast.css';
